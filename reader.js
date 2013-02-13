@@ -7,7 +7,7 @@ window.addEventListener("load",function()
 	document.getElementById("search").addEventListener("click",send_url,false);
 },false);
 function send_url(){
-	var url="http://oxforddictionaries.com/definition/english/"+form.query.value+"?q="+form.query.value;
+	var url="http://www.chhawnchhek.com/cc/?phek=dictionary&m=em&skey="+form.query.value+"&search=Search"+form.query.value;
 	window.open(url,'_blank');
 	return false;
 }
